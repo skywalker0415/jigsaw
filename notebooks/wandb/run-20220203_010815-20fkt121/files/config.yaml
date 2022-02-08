@@ -1,0 +1,301 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.11.2
+    framework: huggingface
+    huggingface_version: 4.8.2
+    is_jupyter_run: true
+    is_kaggle_kernel: true
+    m:
+    - 1: trainer/global_step
+      6:
+      - 3
+    - 1: lr-AdamW
+      5: 1
+      6:
+      - 1
+    - 1: valid_loss/fold1
+      5: 1
+      6:
+      - 1
+    - 1: valid_acc/fold1
+      5: 1
+      6:
+      - 1
+    - 1: epoch
+      5: 1
+      6:
+      - 1
+    - 1: train_loss/fold1
+      5: 1
+      6:
+      - 1
+    - 1: valid_loss/fold2
+      5: 1
+      6:
+      - 1
+    - 1: valid_acc/fold2
+      5: 1
+      6:
+      - 1
+    - 1: train_loss/fold2
+      5: 1
+      6:
+      - 1
+    - 1: valid_loss/fold3
+      5: 1
+      6:
+      - 1
+    - 1: valid_acc/fold3
+      5: 1
+      6:
+      - 1
+    - 1: train_loss/fold3
+      5: 1
+      6:
+      - 1
+    - 1: valid_loss/fold4
+      5: 1
+      6:
+      - 1
+    - 1: valid_acc/fold4
+      5: 1
+      6:
+      - 1
+    - 1: train_loss/fold4
+      5: 1
+      6:
+      - 1
+    - 1: valid_loss/fold5
+      5: 1
+      6:
+      - 1
+    - 1: valid_acc/fold5
+      5: 1
+      6:
+      - 1
+    - 1: train_loss/fold5
+      5: 1
+      6:
+      - 1
+    - 1: valid_loss/fold6
+      5: 1
+      6:
+      - 1
+    - 1: valid_acc/fold6
+      5: 1
+      6:
+      - 1
+    - 1: train_loss/fold6
+      5: 1
+      6:
+      - 1
+    - 1: valid_loss/fold7
+      5: 1
+      6:
+      - 1
+    - 1: valid_acc/fold7
+      5: 1
+      6:
+      - 1
+    - 1: train_loss/fold7
+      5: 1
+      6:
+      - 1
+    - 1: valid_loss/fold8
+      5: 1
+      6:
+      - 1
+    - 1: valid_acc/fold8
+      5: 1
+      6:
+      - 1
+    - 1: train_loss/fold8
+      5: 1
+      6:
+      - 1
+    - 1: valid_loss/fold9
+      5: 1
+      6:
+      - 1
+    - 1: valid_acc/fold9
+      5: 1
+      6:
+      - 1
+    - 1: train_loss/fold9
+      5: 1
+      6:
+      - 1
+    - 1: valid_loss/fold10
+      5: 1
+      6:
+      - 1
+    - 1: valid_acc/fold10
+      5: 1
+      6:
+      - 1
+    - 1: train_loss/fold10
+      5: 1
+      6:
+      - 1
+    python_version: 3.7.10
+    t:
+      1:
+      - 1
+      - 3
+      - 5
+      - 9
+      - 11
+      2:
+      - 1
+      - 3
+      - 5
+      - 9
+      - 11
+      3:
+      - 7
+      4: 3.7.10
+      5: 0.11.2
+      6: 4.8.2
+      8:
+      - 1
+      - 2
+      - 5
+backbone/name:
+  desc: null
+  value: ../data/processed/albert-base-v2/
+backbone/output_dim:
+  desc: null
+  value: 1
+entity:
+  desc: null
+  value: dataskywalker
+environment:
+  desc: null
+  value: AWS
+epoch:
+  desc: null
+  value: 5
+exp_comment:
+  desc: null
+  value: Psuedo Labeling
+exp_name:
+  desc: null
+  value: 039_exp
+loss:
+  desc: null
+  value: nn.MarginRankingLoss
+margin:
+  desc: null
+  value: 0.5
+max_length:
+  desc: null
+  value: 256
+model:
+  desc: null
+  value: null
+n_fold:
+  desc: null
+  value: 10
+optimizer/name:
+  desc: null
+  value: torch.optim.AdamW
+optimizer/params/lr:
+  desc: null
+  value: 1.0e-06
+project:
+  desc: null
+  value: Jigsaw
+root:
+  desc: null
+  value: /content/drive/MyDrive/kaggle/Jigsaw/raw
+scheduler/name:
+  desc: null
+  value: torch.optim.lr_scheduler.CosineAnnealingWarmRestarts
+scheduler/params/T_0:
+  desc: null
+  value: 16935
+scheduler/params/eta_min:
+  desc: null
+  value: 0
+seed:
+  desc: null
+  value: 42
+test_loader/batch_size:
+  desc: null
+  value: 2
+test_loader/drop_last:
+  desc: null
+  value: false
+test_loader/num_workers:
+  desc: null
+  value: 1
+test_loader/pin_memory:
+  desc: null
+  value: true
+test_loader/shuffle:
+  desc: null
+  value: false
+tokenizer:
+  desc: null
+  value: null
+train_fold:
+  desc: null
+  value:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+train_loader/batch_size:
+  desc: null
+  value: 8
+train_loader/drop_last:
+  desc: null
+  value: true
+train_loader/num_workers:
+  desc: null
+  value: 1
+train_loader/pin_memory:
+  desc: null
+  value: true
+train_loader/shuffle:
+  desc: null
+  value: true
+trainer/accumulate_grad_batches:
+  desc: null
+  value: 8
+trainer/fast_dev_run:
+  desc: null
+  value: false
+trainer/gpus:
+  desc: null
+  value: 1
+trainer/num_sanity_val_steps:
+  desc: null
+  value: 0
+trainer/progress_bar_refresh_rate:
+  desc: null
+  value: 1
+valid_loader/batch_size:
+  desc: null
+  value: 2
+valid_loader/drop_last:
+  desc: null
+  value: false
+valid_loader/num_workers:
+  desc: null
+  value: 1
+valid_loader/pin_memory:
+  desc: null
+  value: true
+valid_loader/shuffle:
+  desc: null
+  value: false

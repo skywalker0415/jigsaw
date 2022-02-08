@@ -1,0 +1,1 @@
+{"lr-AdamW": 9.982667489491825e-07, "trainer/global_step": 399, "_runtime": 989, "_timestamp": 1643957990, "_step": 65, "valid_loss/fold1": 0.6931471824645996, "valid_acc/fold1": 0.0, "epoch": 0, "train_loss/fold1": 0.06996551901102066}

@@ -1,0 +1,167 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.11.2
+    framework: lightgbm
+    huggingface_version: 4.8.2
+    is_jupyter_run: true
+    is_kaggle_kernel: true
+    m:
+    - 1: trainer/global_step
+      6:
+      - 3
+    python_version: 3.7.10
+    t:
+      1:
+      - 1
+      - 3
+      - 5
+      - 8
+      - 9
+      - 11
+      2:
+      - 1
+      - 3
+      - 5
+      - 8
+      - 9
+      - 11
+      3:
+      - 7
+      4: 3.7.10
+      5: 0.11.2
+      6: 4.8.2
+      8:
+      - 1
+      - 2
+      - 5
+backbone/name:
+  desc: null
+  value: roberta-base
+backbone/output_dim:
+  desc: null
+  value: 6
+entity:
+  desc: null
+  value: dataskywalker
+environment:
+  desc: null
+  value: AWS
+epoch:
+  desc: null
+  value: 3
+exp_name:
+  desc: null
+  value: 017_exp
+loss:
+  desc: null
+  value: nn.BCEWithLogitsLoss
+margin:
+  desc: null
+  value: 0.5
+max_length:
+  desc: null
+  value: 256
+model:
+  desc: null
+  value: null
+n_fold:
+  desc: null
+  value: 5
+optimizer/name:
+  desc: null
+  value: torch.optim.AdamW
+optimizer/params/lr:
+  desc: null
+  value: 1.0e-05
+project:
+  desc: null
+  value: Jigsaw
+root:
+  desc: null
+  value: /content/drive/MyDrive/kaggle/Jigsaw/raw
+scheduler/name:
+  desc: null
+  value: torch.optim.lr_scheduler.CosineAnnealingWarmRestarts
+scheduler/params/T_0:
+  desc: null
+  value: 861
+scheduler/params/eta_min:
+  desc: null
+  value: 0
+seed:
+  desc: null
+  value: 42
+test_loader/batch_size:
+  desc: null
+  value: 8
+test_loader/drop_last:
+  desc: null
+  value: false
+test_loader/num_workers:
+  desc: null
+  value: 1
+test_loader/pin_memory:
+  desc: null
+  value: true
+test_loader/shuffle:
+  desc: null
+  value: false
+tokenizer:
+  desc: null
+  value: null
+train_fold:
+  desc: null
+  value:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+train_loader/batch_size:
+  desc: null
+  value: 16
+train_loader/drop_last:
+  desc: null
+  value: false
+train_loader/num_workers:
+  desc: null
+  value: 4
+train_loader/pin_memory:
+  desc: null
+  value: true
+train_loader/shuffle:
+  desc: null
+  value: false
+trainer/accumulate_grad_batches:
+  desc: null
+  value: 64
+trainer/fast_dev_run:
+  desc: null
+  value: false
+trainer/gpus:
+  desc: null
+  value: 1
+trainer/num_sanity_val_steps:
+  desc: null
+  value: 0
+trainer/progress_bar_refresh_rate:
+  desc: null
+  value: 1
+valid_loader/batch_size:
+  desc: null
+  value: 4
+valid_loader/drop_last:
+  desc: null
+  value: false
+valid_loader/num_workers:
+  desc: null
+  value: 1
+valid_loader/pin_memory:
+  desc: null
+  value: true
+valid_loader/shuffle:
+  desc: null
+  value: false

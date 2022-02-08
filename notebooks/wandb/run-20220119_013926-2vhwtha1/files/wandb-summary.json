@@ -1,0 +1,1 @@
+{"valid_loss/fold1": 0.48846736550331116, "valid_acc/fold1": 0.5451042652130127, "epoch": 2, "trainer/global_step": 14, "_runtime": 1273, "_timestamp": 1642557639, "_step": 5, "train_loss/fold1": 0.008907513692975044}

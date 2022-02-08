@@ -1,0 +1,26 @@
+{
+    "os": "Linux-5.4.0-1063-aws-x86_64-with-debian-buster-sid",
+    "python": "3.7.10",
+    "heartbeatAt": "2022-01-26T10:32:55.676852",
+    "startedAt": "2022-01-26T10:32:50.874059",
+    "docker": null,
+    "gpu": "Tesla V100-SXM2-16GB",
+    "gpu_count": 1,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "-f",
+        "/root/.local/share/jupyter/runtime/kernel-ff1dd9c9-1160-4220-879d-a273e1a3fb8d.json"
+    ],
+    "state": "running",
+    "program": "mnt/work/shimizu/kaggle/Jigsaw/notebooks/029_exp.ipynb",
+    "root": "/mnt/work/shimizu/kaggle",
+    "git": {
+        "remote": null,
+        "commit": null
+    },
+    "email": "skywalker.force0415@gmail.com",
+    "host": "63ad34d5b2cb",
+    "username": "root",
+    "executable": "/opt/conda/bin/python"
+}
